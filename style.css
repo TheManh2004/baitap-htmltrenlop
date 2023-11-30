@@ -8,3 +8,21 @@ body{
 .caption1{
     text-align: center;
 }
+.main{
+    margin-left: 300px;
+    display: block;
+}
+.promain{
+    display: flex;
+}
+.main1{
+    margin-left: 300px;
+}
+.buoi1{
+    font-size: 25px;
+    line-height: 35px;
+}
+.buoi2{
+    font-size: 25px;
+    line-height: 35px;
+}
