@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.hop1{
+    position: relative;
+    width: 100%;
+    height: 28px;
+    background-color: #2e2e2e;
+}
+.hop1-caption{
+    font-size: 12px;
+    line-height: 25px;
+    display: flex;
+    margin-left: 250px;
+    gap: 15px;
+    color: #aaa;
+}
+.hop2{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: #222;
+}
+.hop2-img{
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.hop2-icon{
+    margin-top: -50px;
+    margin-left: 70px;
+    width: 20px;
+    height: 20px;
+  
+}
