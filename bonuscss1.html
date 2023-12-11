@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button style="width: 80px;
+                    background-color: orange;
+                    cursor: pointer;
+                    height: 30px;
+                    border-radius: 16px;
+                    border: none;
+                    display: inline-block;"><a href="index.html" style="color: white;
+                                                                        text-decoration: none;">Trang chủ</a></button>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+        }
+        .container{
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+            max-width: 1140px;
+        }
+        .header{
+            background-color: aqua;
+            height: 30px;
+        }
+        .body1{
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            margin: 4px 0;
+            justify-content: center;
+        }
+        .footer{
+            background-color: orangered;
+        }
+        .body1 .col {
+            width: 33.33%;
+        }
+        @media screen and (max-width: 600px) {
+            .body1{
+                flex-direction: column;
+                gap: 0;
+                margin: 0;
+            }
+            .body1 .col {
+                width: 100%;
+                
+            }
+        }
+    </style>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="body1">
+            <div class="col" style="background-color: rgb(133,140,140);">col1</div>
+            <div class="col" style="background-color: rgb(158,167,167);">col2</div>
+            <div class="col" style="background-color: rgb(184,193,193);">col3</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>

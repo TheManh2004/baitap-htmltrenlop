@@ -9,20 +9,24 @@ body{
     text-align: center;
 }
 .main{
-    margin-left: 300px;
+    margin-left: 80px;
     display: block;
 }
 .promain{
     display: flex;
 }
 .main1{
-    margin-left: 300px;
+    margin-left: 100px;
 }
 .buoi1{
     font-size: 25px;
     line-height: 35px;
 }
 .buoi2{
+    font-size: 25px;
+    line-height: 35px;
+}
+.buoi3{
     font-size: 25px;
     line-height: 35px;
 }
