@@ -10,6 +10,9 @@ body {
     background-image: url("anhbe.jpg");
     font-family: "Google Sans",sans-serif;
 }
+.caption{
+    line-height: 32px;
+}
 .header {
     background-color: rgb(31, 132, 145);
     color: #fff;
@@ -143,7 +146,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: rgb(5, 255, 42);
+    color: aqua;
 }
 a:active {
     color: green; 
