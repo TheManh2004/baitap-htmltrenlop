@@ -8,12 +8,13 @@ body {
     padding: 0;
     font-weight: 400;
     font-family: "Google Sans",sans-serif;
+    background-image: url(anhbackground3.jpg);
 }
 .caption{
     line-height: 32px;
 }
 .caption1{
-    color: aquamarine;
+    color: rgb(0,255,255);
 }
 .header {
     background-color: rgb(31, 132, 145);
@@ -21,6 +22,7 @@ body {
     padding: 10px;
     text-align: center;
     font-family: 'Potta One', cursive;
+    
 }
 section {
     border-radius: 20px;
@@ -101,7 +103,7 @@ section {
 
 .item img {
     width: 100%;
-    height: 430px;
+    height: 350px;
     image-rendering: optimizeSpeed; 
     image-rendering: -moz-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
