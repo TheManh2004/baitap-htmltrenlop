@@ -1,0 +1,149 @@
+body{
+    font-family:"Function Pro";
+    font-style: normal;
+    font-weight: normal;
+    background-image: url(https://mega.com.vn/media/news/0306_Hinh-nen-den-4k78.jpg);
+}
+.hop1{
+    display: flex;
+    justify-content: start;
+}
+.caption{
+    position: relative;
+    color: white;
+    list-style: none;
+    display: flex;
+    margin-left: -430px;
+    gap: 35px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 45px;
+    height: 25px;
+}
+.caption1{
+    border-bottom: 2px solid;
+}
+.caption-table1{
+    background-color: white;
+    color: black;
+    display: none;
+    margin-top: 10px;
+    height: 90px;
+    width: 200px;
+    position: absolute;
+    border: 1px solid black;
+}
+.captionsmall1{
+    list-style-type: none;
+    margin-left: -20px;
+    line-height: 40px;
+}
+.caption1:hover .caption-table1{
+    display: block;
+}
+.caption-table2{
+    background-color: white;
+    color: black;
+    display: none;
+    margin-top: 10px;
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border: 1px solid black;
+}
+.caption2{
+    transition: 0.5s;
+}
+.captionsmall2{
+    list-style-type: none;
+    margin-left: -20px;
+    line-height: 40px;
+}
+.caption2:hover{
+    border-bottom: 2px solid white;
+    pointer-events: auto;
+}
+.caption2:hover .caption-table2{
+    display: block;
+}
+.caption-table3{
+    background-color: white;
+    color: black;
+    display: none;
+    margin-top: 10px;
+    height: 340px;
+    width: 200px;
+    position: absolute;
+    border: 1px solid black;
+}
+.caption3{
+    transition: 0.5s;
+}
+.captionsmall3{
+    list-style-type: none;
+    margin-left: -20px;
+    line-height: 40px;
+}
+.caption3:hover{
+    border-bottom: 2px solid white;
+    pointer-events: auto;
+}
+.caption3:hover .caption-table3{
+    display: block;
+}
+.caption4{
+    transition: 0.5s;
+}
+.caption-table4{
+    background-color: white;
+    color: black;
+    display: none;
+    margin-top: 10px;
+    height: 90px;
+    width: 200px;
+    position: absolute;
+    border: 1px solid black;
+}
+.captionsmall4{
+    list-style-type: none;
+    margin-left: -20px;
+    line-height: 40px;
+}
+.caption4:hover{
+    border-bottom: 2px solid white;
+    pointer-events: auto;
+}
+.caption4:hover .caption-table4{
+    display: block;
+}
+.caption-table5{
+    background-color: white;
+    color: black;
+    display: none;
+    margin-top: 10px;
+    height: 210px;
+    width: 200px;
+    position: absolute;
+    border: 1px solid black;
+}
+.caption5{
+    transition: 0.5s;
+}
+.captionsmall5{
+    list-style-type: none;
+    margin-left: -20px;
+    line-height: 40px;
+}
+.caption5:hover{
+    border-bottom: 2px solid white;
+    pointer-events: auto;
+}
+.caption5:hover .caption-table5{
+    display: block;
+}
+.caption6{
+    transition: 0.5s;
+}
+.caption6:hover{
+    border-bottom: 2px solid white;
+}
