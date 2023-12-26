@@ -1,0 +1,24 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    
+}
+.hop1class{
+    display: flex;
+}
+.hop11{
+    width: 100%;
+    height: 15px;
+    margin-top: -22px;
+    position: fixed;
+    background-color: white;
+}
+body{
+    font-family:"Function Pro",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.hop1{
+    background-color: gray;
+    height: 1500px;
+}
