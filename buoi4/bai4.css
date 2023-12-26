@@ -64,15 +64,27 @@ body{
 }
 .caption2{
     transition: 0.5s;
+    position: relative;
+}
+.caption2::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1.25px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+ .caption2:hover::after{
+    transform: scaleX(1);
 }
 .captionsmall2{
     list-style-type: none;
     margin-left: 10px;
     line-height: 40px;
-}
-.caption2:hover{
-    border-bottom: 2px solid white;
-    pointer-events: auto;
 }
 .caption2:hover .caption-table2{
     display: block;
@@ -89,21 +101,49 @@ body{
 }
 .caption3{
     transition: 0.5s;
+    position: relative;
+}
+.caption3::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1.25px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+ .caption3:hover::after{
+    transform: scaleX(1);
 }
 .captionsmall3{
     list-style-type: none;
     margin-left: 10px;
     line-height: 40px;
 }
-.caption3:hover{
-    border-bottom: 2px solid white;
-    pointer-events: auto;
-}
 .caption3:hover .caption-table3{
     display: block;
 }
 .caption4{
     transition: 0.5s;
+    position: relative;
+}
+.caption4::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1.25px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+ .caption4:hover::after{
+    transform: scaleX(1);
 }
 .caption-table4{
     background-color: white;
@@ -120,10 +160,6 @@ body{
     margin-left: 10px;
     line-height: 40px;
 }
-.caption4:hover{
-    border-bottom: 2px solid white;
-    pointer-events: auto;
-}
 .caption4:hover .caption-table4{
     display: block;
 }
@@ -139,24 +175,49 @@ body{
 }
 .caption5{
     transition: 0.5s;
+    position: relative;
+}
+.caption5::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1.25px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+ .caption5:hover::after{
+    transform: scaleX(1);
 }
 .captionsmall5{
     list-style-type: none;
     margin-left: 10px;
     line-height: 40px;
 }
-.caption5:hover{
-    border-bottom: 2px solid white;
-    pointer-events: auto;
-}
 .caption5:hover .caption-table5{
     display: block;
 }
 .caption6{
     transition: 0.5s;
+    position: relative;
 }
-.caption6:hover{
-    border-bottom: 2px solid white;
+.caption6::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1.25px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+ .caption6:hover::after{
+    transform: scaleX(1);
 }
 .fixsearch {
     display: flex;
@@ -170,6 +231,7 @@ body{
     height: 20px;
     cursor: pointer;
     color: white;
+    margin-left: 15px;
     background-color: transparent;
     padding-block: 1px;
     padding-inline: 6px;
@@ -191,7 +253,7 @@ body{
     padding-inline:0;
     padding-block: 0;
     border: none;
-    /* position: absolute; */
+    position: absolute;
 }
 
 .search1:focus,
