@@ -44,10 +44,27 @@ body{
     position: absolute;
     border: 1px solid black;
 }
-.captionsmall1{
+.captionsmall11{
     list-style-type: none;
     margin-left: 10px;
     line-height: 40px;
+    transition: 0.5s;
+    position: relative;
+}
+.captionsmall11::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1.25px;
+    width: 100%;
+    left: 0;
+    background-color: black;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+ .captionsmall1:hover::after{
+    transform: scaleX(1);
 }
 .caption1:hover .caption-table1{
     display: block;
@@ -86,6 +103,27 @@ body{
     margin-left: 10px;
     line-height: 40px;
 }
+.captionsmall22{
+    font-size: 15px;
+    transition: 0.5s;
+    position: relative;
+}
+.captionsmall22::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 1.25px;
+    width: 100%;
+    left: 0;
+    text-decoration: solid;
+    background-color: black;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+ .captionsmall22:hover::after{
+    transform: scaleX(1);
+}
 .caption2:hover .caption-table2{
     display: block;
 }
@@ -94,7 +132,7 @@ body{
     color: black;
     display: none;
     margin-top: 10px;
-    height: 340px;
+    height: 300px;
     width: 200px;
     position: absolute;
     border: 1px solid black;
