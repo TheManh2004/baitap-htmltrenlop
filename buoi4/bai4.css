@@ -297,7 +297,7 @@ body{
     color: white;
     margin-top: 300px;
     margin-left: -780px;
-    width: 40px;
+    width: 500px;
     height: auto;
     text-align: center;
     align-items: center;
@@ -307,7 +307,7 @@ body{
     position: relative;
     background-color: white;
     color: black;
-    margin-left: -650px;
+    margin-left: -610px;
     margin-top: 50px;
     width: 150px;
     border: none;
