@@ -46,7 +46,7 @@ body{
 }
 .captionsmall1{
     list-style-type: none;
-    margin-left: -20px;
+    margin-left: 10px;
     line-height: 40px;
 }
 .caption1:hover .caption-table1{
@@ -67,7 +67,7 @@ body{
 }
 .captionsmall2{
     list-style-type: none;
-    margin-left: -20px;
+    margin-left: 10px;
     line-height: 40px;
 }
 .caption2:hover{
@@ -92,7 +92,7 @@ body{
 }
 .captionsmall3{
     list-style-type: none;
-    margin-left: -20px;
+    margin-left: 10px;
     line-height: 40px;
 }
 .caption3:hover{
@@ -117,7 +117,7 @@ body{
 }
 .captionsmall4{
     list-style-type: none;
-    margin-left: -20px;
+    margin-left: 10px;
     line-height: 40px;
 }
 .caption4:hover{
@@ -142,7 +142,7 @@ body{
 }
 .captionsmall5{
     list-style-type: none;
-    margin-left: -20px;
+    margin-left: 10px;
     line-height: 40px;
 }
 .caption5:hover{
