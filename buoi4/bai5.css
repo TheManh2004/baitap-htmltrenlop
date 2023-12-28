@@ -34,7 +34,7 @@ body{
     display: block;
 }
 .search-focus{
-    width: 100%;
+    width: 98%;
     height: 0;
     background-color: rgb(41, 41, 41,0.8);
     position: fixed;
@@ -44,6 +44,43 @@ body{
     display: none;
     overflow: hidden;
     transition: height 0.3s ease-in-out;
+}
+.leftcaption{
+    display: flex;
+    color: #f2f2f2;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+.caption1left{
+    margin-left: -10px;
+}
+.caption1left:hover{
+    color: gray;
+    cursor: pointer;
+}
+.caption2left{
+    margin-left: -10px;
+}
+.iconface{
+    color: white;
+}
+.rightcaption{
+    display: flex;
+    margin-left: 1160px;
+    margin-top: -50px;
+}
+.rightcaption button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50% ;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+.rightcaption button:hover{
+    background-color: #6d6d6d;
 }
 .search-focus-container{
     width: 1000px;
@@ -65,15 +102,16 @@ body{
     position: absolute;
     bottom: -5px;
     height: 1.25px;
-    width: 100%;
-    right: 0;
+    width: 0;
+    left: 0;
     background-color: white;
     transition: 0.3s;
     transition-timing-function: ease-in-out;
-    transform: scaleX(0);
+    /* transform: scaleX(0); */
 }
  .caption1-search:hover::after{
-    transform: scaleX(1);
+    /* transform: scaleX(1); */
+    width: 100%;
 }
 .caption2-search{
     font-size: 30px;
@@ -96,6 +134,12 @@ body{
     border: none;
 }
 .dongke{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(121, 121, 121);
+    padding: 0;
+    height: 1px;
+    margin-top: 80px;
 }
 .container{
     /* width: 1000px; */
