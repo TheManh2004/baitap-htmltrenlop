@@ -1,0 +1,760 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.hop1{
+    top: 0;
+    background-color: white;
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    z-index: 2;
+    overflow: hidden;
+}
+.logo-audi{
+    margin-top: 28px;
+    margin-left: 60px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.caption-style{
+    display: flex;
+    margin-top: 0;
+    margin-left: -200px;
+    color: #535353;
+    font-size: 100%;
+}
+.caption{
+    margin-top: 28px;
+    margin-left: 30px;
+    cursor: pointer;
+    height: 20px;
+}
+.search{
+    margin-top: 28px;
+    width: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    padding: 0;
+    margin-left: 400px;
+}
+.hop2{
+    background-image:url(https://hips.hearstapps.com/hmg-prod/images/2022-audi-s8-fd-112-1649645153.jpg?crop=0.744xw:0.558xh;0.120xw,0.353xh&resize=1200:*);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 658px;
+    /* position:relative; */
+    z-index: 2;
+    overflow: hidden;
+    inset: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.caption1{
+    padding: 0;
+    margin-top: 460px;
+    margin-left: 70px;
+}
+.caption1-style{
+    color: white;
+    font-size: 40px;
+}
+.caption2{
+    color: #e4e2e2;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 13px;
+}
+.container{
+    margin-left: 78px;
+    border-color: white;
+    cursor: pointer;
+    padding-inline: 2em;
+}
+.container1{
+    border-color: white;
+    background-color: transparent;
+    cursor: pointer;
+    border-style: solid;
+    padding-inline: 2em;
+}
+.caption3{
+    align-items: center;
+    justify-content: center;
+    color: rgb(68, 68, 68);
+}
+.caption4{
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.container:hover{
+    background-color: #c0c0c0;
+    transition-duration: 700ms;
+    transition-timing-function: var(--easing-00858fd);
+}
+.container1:hover{
+    background-color: #848484;
+    transition-duration: 300ms;
+    transition-timing-function: var(--easing-00858fd);
+}
+.caption:hover{
+    color: rgb(0, 0, 0);
+}
+.hop3{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+.caption5-style{
+    margin-top: 20px;
+}
+.caption5{
+    color: #666666;
+    font-size: 18px;
+    margin-left: 50px;
+}
+.caption5:hover{
+    cursor: pointer;
+    color: #c5c5c5;
+    border-bottom: 1px solid rgb(196, 193, 193);
+}
+.audietron{
+    padding: auto;
+    margin: 0;
+    display: block;
+    margin-left: -30px;
+}
+.etron2022{
+    width: 70%;
+    height: 30px;
+}
+.caption-audi{
+    color: #4c4c4c;
+    margin-left: 70px;
+    text-align: center;
+    display: block;
+}
+.dongxe{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.audietron:hover{
+    cursor: pointer;
+    transform: scale(.95);
+    transition: transform .3s;
+}
+.caption-audi:hover{
+    cursor: pointer;
+    transform: scale(.95);
+    transition: transform .3s;
+    line-height: 15%;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.dongxe-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hop4{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+}
+.hop4-style{
+    display: flex;
+}
+.hop4img{
+    display: block;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    height: 80%;
+    margin-left: 170px;
+    height: 600px;
+}
+.captionhop4{
+    font-weight: 700;
+    font-size: 44px;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+    display: block;
+    margin-left: 56px;
+    width: 32%;
+    line-height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.caption-small{
+    font-size: 12px;
+    line-height: 17px;
+    font-style: normal;
+    color: rgb(96, 96, 96);
+}
+.container3{
+    align-items: center;
+    justify-content: center;
+    color: rgb(68, 68, 68);
+    background-color: white;
+    width: 188px;
+    height: 58px;
+}
+.container2{
+    width: 188px;
+    height: 58px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.container2:hover{
+    cursor: pointer;
+    background-color: #4f4f4f;
+    transition-duration: 700ms;
+    transition-timing-function: var(--easing-00858fd);
+}
+.container3:hover{
+    cursor: pointer;
+    background-color: rgb(237, 237, 237);
+    transition-duration: 700ms;
+    transition-timing-function: var(--easing-00858fd);
+}
+.hop5{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    margin-top: 380px;
+    overflow: hidden;
+}
+.hop5-style{
+    display: flex;
+}
+.hop5img{
+    display: block;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    height: 150%;
+    margin-left: 170px;
+    height: 600px;
+}
+.captionhop5{
+    font-weight: 700;
+    font-size: 44px;
+    margin-top: 11%;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    letter-spacing: -0.015em;
+    text-decoration: none;
+    display: block;
+    margin-left: 56px;
+    width: 32%;
+    line-height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.hop6{
+    background-image:url(https://www.audi.vn/content/dam/nemo/sea/vn/new-homepage/2023/06/3840x4000-space-of-progress-parallax-teaser.jpg?imwidth=1920);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1300px;
+    position:relative;
+    z-index: 2;
+    overflow: hidden;
+    inset: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+.hop6-small{
+    width: 670px;
+    height: 300px;
+    background-color: white;
+    margin-top:  510px;
+    margin-left: 64px;
+    padding: 20px;
+}
+.hop6-caption{
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    margin-left: 40px;
+    width: 80%;
+    height: fit-content;
+    font-size: 40px;
+}
+.hop6-captionsmall{
+    color: #8b8b8b;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    margin-left: 40px;
+    width: 80%;
+    height: fit-content;
+    font-size: 17px;
+}
+.container5{
+    width: 188px;
+    height: 58px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-left: 40px;
+}
+.container6{
+    align-items: center;
+    justify-content: center;
+    color: rgb(68, 68, 68);
+    background-color: white;
+    width: 188px;
+    height: 58px;
+    font-size: 16px;
+}
+.container5:hover{
+    cursor: pointer;
+    background-color: rgb(61, 61, 61);
+    transition-duration: 700ms;
+    transition-timing-function: var(--easing-00858fd);
+}
+.container6:hover{
+    cursor: pointer;
+    background-color: #ededed;
+    transition-duration: 700ms;
+    transition-timing-function: var(--easing-00858fd);
+}
+.hop7{
+    background-color: white;
+    width: 100%;
+    height: 590px;
+    overflow: hidden;
+    position: relative;
+}
+.caption-hop7{
+    font-size: 3.0rem;
+    line-height: 4.9rem;
+    margin-left: 45px;
+}
+.imghop7{
+   width: 460px;
+   height: 290px;
+   cursor: pointer;
+}
+.caption-img{
+    padding: 7px;
+    display: flex;
+    cursor: pointer;
+    margin-left: -7px;
+    position: relative;
+    height: fit-content;
+    line-height: 30px;
+}
+.caption-img1:hover{
+    color: #4c4c4c;
+    cursor: pointer;
+}
+.caption-img2{
+    margin-left: 10px;
+    color: #686868;
+    cursor: pointer;
+}
+.style2{
+    display: flex;
+    
+}
+.img1hop7{
+    margin-left: -32px;
+}
+.img2hop7{
+    margin-left: -32px;
+}
+.hop8{
+    background-color: black;
+    width: 100%;
+    height: 520px;
+    position:relative;
+    overflow: hidden;
+}
+.caption-hop8{
+    color: white;
+    font-size: 13px;
+    margin-left: 1290px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.icon-hop8{
+    color: white;
+    fill: none;
+    stroke: currentcolor;
+    height:fit-content;
+    height: 15px;
+    width: 20px;
+    margin-left: 26px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+.hop8-style{
+    display: flex;
+}
+.caption-hop8:hover{
+    color: #d6d6d6;
+}
+.icon-hop8:hover{
+    color: #d6d6d6;
+}
+.caption7{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    height: fit-content;
+}
+.hop8-content{
+    display: flex;
+    margin-left: 70px;
+    cursor: pointer;
+    width: 980px;
+}
+.caption7:hover{
+    color: #d6d6d6;
+}
+.caption8{
+    color: white;
+    font-size: 13px;
+    margin-top: 37px;
+    margin-left: 40px;
+    height: fit-content;
+}
+.hop8-content2{
+    line-height: -0px;
+}
+.caption9{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 105px;
+    height: fit-content;
+}
+.caption10{
+    color: white;
+    font-size: 13px;
+    margin-top: 37px;
+    margin-left: 105px;
+    height: fit-content;
+}
+.caption8:hover{
+    color: #d6d6d6;
+}
+.caption10:hover{
+    color: #d6d6d6;
+}
+.caption9:hover{
+    color: #d6d6d6;
+}
+.iconhop8-style1{
+    color: white;
+    width: 40px;
+    cursor: pointer;
+    height: 30px;
+    margin-bottom: 120px;
+}
+.iconhop8-style2{
+    color: white;
+    width: 40px;
+    cursor: pointer;
+    height: 30px;
+    margin-bottom: 120px;
+}
+.iconhop8-style3{
+    color: white;
+    width: 40px;
+    cursor: pointer;
+    height: 30px;
+    margin-bottom: 120px;
+}
+.iconhop8-style1:hover{
+    color: rgb(189, 189, 189);
+}
+.iconhop8-style2:hover{
+    color: rgb(189, 189, 189);
+}
+.iconhop8-style3:hover{
+    color: rgb(189, 189, 189);
+}
+.iconcontent-hop8{
+    margin-top: 30px;
+    margin-left: 1290px;
+}
+.dongke{
+    margin-left:  -1187px;
+    width: 1320px;
+    margin-top: -100px;
+}
+.caption11{
+    margin-top: 30px;
+    color: white;
+    font-size: 13px;
+    margin-left: 105px;
+}
+.hop8-content3{
+    display: flex;
+}
+.caption12{
+    margin-top: 30px;
+    color: white;
+    font-size: 12px;
+    margin-left: 40px;
+}
+.caption12:hover{
+    color: rgb(219, 219, 219);
+    cursor: pointer;
+}
+.hop8-content4{
+    display: flex;
+}
+.small-hop8{
+    display: flex;
+}
+.icon1hop8{
+    color: white;
+    margin-top: -35px;
+    margin-left: 1300px;
+    height: 35px;
+    width: 30px;
+}
+.caption13{
+    color: white;
+    margin-left: 5px;
+    margin-top: -30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.caption13:hover{
+    color: rgb(188, 188, 188);
+}
+.icon1-hop8{
+    color: white;
+    fill: none;
+    stroke: currentcolor;
+    height:fit-content;
+    height: 15px;
+    width: 20px;
+    margin-left: 6px;
+    margin-top: -35px;
+    cursor: pointer;
+}
+.tqcmx{
+    text-decoration: none;
+    color: #535353;
+}
+.tqcmx:hover{
+    text-decoration: none;
+    color: black;
+}
+.ttsk{
+    text-decoration: none;
+    color: #535353;
+}
+.ttsk:hover{
+    text-decoration: none;
+    color: black;
+}
+.search:focus + .search-focus{
+    height: 100vh;
+}
+.search-focus{
+    width: 100%;
+    height: 0;
+    background-color: rgb(41, 41, 41,0.8);
+    position: fixed;
+    z-index: 100 !important;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+.search-focus-container{
+    width: 100%;
+    min-height: 300px;
+    background-color: white;
+}
+.muiten{
+    margin-top: 30px;
+    margin-left: 100px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.search2{
+    width: 460px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    padding-left: 30px;
+    margin-left: 2px;
+    z-index: 2;
+    box-sizing: border-box;
+    transition: padding-left 0.3s ease-in-out;
+    font-size: 17px;
+}
+.search1{
+    margin-left: 480px;
+    margin-top: -40px;
+}
+.dongke1{
+    width: 600px;
+    margin-left: 0px;
+   
+}
+.caption-search{
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: 480px;
+}
+.caption1-search{
+    margin-left: 455px;
+    color: rgb(33, 33, 33);
+    background-color: white;
+    cursor: pointer;
+    user-select: initial;
+    padding: 8px 24px;
+    margin-bottom: 0px;
+    border: none;
+    text-align: start;
+    width: 600px;
+    font-size: 16px;
+}
+.caption1-search:hover{
+    background-color: #e4e4e4;
+    transition-timing-function: cubic-bezier(0.75, 0.02, 0.5, 1);
+    transition-duration: 250ms;
+}
+.dvkh:focus + .dvkh-focus{
+    height: 100vh;
+}
+.dvkh-focus{
+    width: 100%;
+    height: 0;
+    background-color: rgb(41, 41, 41,0.8);
+    position: fixed;
+    z-index: 100 !important;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+.dvkh-focus-container{
+    width: 100%;
+    min-height: 350px;
+    background-color: white;
+}
+.dvkh{
+    margin-top: 28px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 20px;
+    background-color: white;
+    color: #4c4c4c;
+    border: none;
+}
+.dvkh:hover{
+    color: rgb(0, 0, 0);
+}
+.caption-dvkh{
+  
+    margin-left: 100px;
+}
+.imgdvkh{
+    width: 500px;
+    margin-left: 900px;
+    margin-top: -220px;
+}
+.captionsmall{
+    display: flex;
+}
+.caption1-dvkh{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    margin-left: 920px;
+    margin-top: -40px;
+    cursor: pointer;
+    width: 180px;
+}
+.muiten1{
+    cursor: pointer;
+    width: 20px;
+    height: fit-content;
+    margin-left: 270px;
+    margin-top: -36px;
+    font-size: 21px;
+    color: white;
+}
+.lhct{
+    margin-top: 28px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 20px;
+    background-color: white;
+    color: #4c4c4c;
+    border: none;
+}
+.lhct:hover{
+    color: rgb(0, 0, 0);
+}
+.lhct:focus + .lhct-focus{
+    height: 100vh;
+}
+.lhct-focus{
+    width: 100%;
+    height: 0;
+    background-color: rgb(41, 41, 41,0.8);
+    position: fixed;
+    z-index: 100 !important;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+}
+.lhct-focus-container{
+    width: 100%;
+    min-height: 350px;
+    background-color: white;
+}
+.caption-lhct{
+  
+    margin-left: 100px;
+}
+.imglhct{
+    width: 500px;
+    margin-left: 900px;
+    margin-top: -180px;
+}
+.caption1-lhct{
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    margin-left: 920px;
+    margin-top: -40px;
+    cursor: pointer;
+    width: 180px;
+}
+
+
+
+

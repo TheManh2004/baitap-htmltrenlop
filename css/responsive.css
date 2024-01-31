@@ -1,0 +1,259 @@
+@media screen and (max-width: 1019px) {
+    .hop1{
+        justify-content: space-between;
+    }
+    .captionmenu {
+        display: none;
+    }
+    .images {
+        width: 100%;
+        display: none;
+
+    }
+
+    .hop2 {
+        z-index: -1;
+    }
+
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .h1 {
+        width: 100%;
+    }
+
+    .Contact {
+        display: none;
+    }
+
+    .buttonabout3 {
+        padding: 15px;
+        width: 20%;
+    }
+
+    .cap3-caption {
+        display: block;
+        display: flex;
+        margin-left: -20%;
+
+    }
+    .hop1 .caption-style .fa-bars{
+        display: block;
+    }
+    .iconplay {
+        margin-left: 23%;
+    }
+
+    .containey1 {
+        grid-template-columns: repeat(1, 1fr);
+        width: 70%;
+        float: none;
+    }
+
+    .bar:focus+.cap3-caption {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .logo {
+        margin-left: -5%;
+    }
+
+    .cap3-caption {
+        display: block;
+        display: flex;
+        margin-left: -33%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .buttonabout1 {
+        width: 23%;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .buttonabout1 {
+        width: 50%;
+    }
+
+    .buttonabout {
+        width: 50%;
+        margin-bottom: 15%;
+    }
+
+    .buttonabout2 {
+        width: 50%;
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width: 1509px) {
+    .video {
+        width: 14%;
+    }
+}
+
+@media screen and (max-width: 1084px) {
+    .video {
+        width: 40%;
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 1019px) {
+    .containey {
+        grid-template-columns: repeat(1, 1fr);
+        width: 70%;
+        float: none;
+    }
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+}
+
+.item img {
+    width: 100%;
+    height: 350px;
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -o-crisp-edges;
+    image-rendering: pixelated;
+
+}
+
+.item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    opacity: 1;
+    transition: opacity 1 ease;
+}
+
+.item:hover .overlay {
+    opacity: 0.8;
+}
+
+.item .overlay p {
+    margin: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+a {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: green;
+}
+
+.a:visited {
+    color: purple;
+}
+
+footer {
+    text-align: left;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: "Times New Roman", serif;
+    padding: 13px
+}
+
+.footer {
+    color: #ffffff;
+    text-align: right;
+    padding: 10px;
+}
+
+.footer a {
+    color: rgb(2, 117, 79);
+    opacity: 1;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer a:hover {
+    color: rgb(240, 223, 130);
+}
+
+@media screen and (max-width: 592px) {
+    .id-footer {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1019px) {
+    .content-profile {
+        margin-top: 3%;
+    }
+
+    .portfolio-items {
+        margin-top: 4%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width: 1019px) {
+    .item2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .description {
+      padding: 20px 0;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .item2 {
+      flex: 1 1 100%; /* Thay đổi cỡ item để chúng xếp chồng lên nhau trên màn hình nhỏ */
+      max-width: 100%; /* Chỉnh sửa lại max-width */
+    }
+  }
+  @media screen and (max-width: 850px) {
+    .section-six .inner-wrap .inner-list {
+        flex-direction: column;
+    }
+    .section-six .inner-wrap .inner-item {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .section-six .inner-wrap .inner-item .inner-img img {
+        width: 100%;
+    }
+    .section-six .inner-wrap .inner-item .img-style{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1019px) {
+    .hop2{
+        flex-wrap: wrap;
+    }
+    
+}
