@@ -62,7 +62,9 @@
     .logo {
         margin-left: -5%;
     }
-
+    .video{
+        display: none;
+    }
     .cap3-caption {
         display: block;
         display: flex;
@@ -93,9 +95,9 @@
     }
 }
 
-@media screen and (max-width: 1509px) {
+@media screen and (max-width: 1513px) {
     .video {
-        width: 14%;
+        display: none;
     }
 }
 
@@ -254,12 +256,6 @@ footer {
 @media screen and (max-width: 1019px) {
     .hop2{
         flex-wrap: wrap;
-    }
-    
-}
-@media screen and (max-width: 1019px) {
-    .video{
-        display: none;
     }
     
 }
