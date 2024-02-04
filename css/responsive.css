@@ -257,3 +257,9 @@ footer {
     }
     
 }
+@media screen and (max-width: 1019px) {
+    .video{
+        display: none;
+    }
+    
+}
